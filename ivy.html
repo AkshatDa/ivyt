@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel = "stylesheet" type = "text/css" href = "irla.css" />
+      <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+      <title>A Trip to every Ivy</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet"> 
+   </head>
+   <body>  
+      <h1 class = "important animate__animated animate__backInDown wow" >A Trip to every Ivy</h1>
+      <h3 class = "animate__animated animate__backInUp wow">Graph Theory</h3>
+      <h3 class = "animate__animated animate__backInUp wow">Project Made By: Akshat Mehta</h3>
+      <h4 class = "animate__animated animate__backInUp wow"><a href=""><img src = "map.png" alt="Map" width = "300" height = "350"></img></a></h4>
+      <div class = "margin wow">
+      <a href="https://docs.google.com/presentation/d/1CViTAmLat6KsVfpzQGXMXktVU0BVcJ3RIy3SOfhYLMU/edit#slide=id.p"><img src = "googleSlides.png" alt="discord" width = "80" height = "80"></img></a>
+      </div>
+      <h1 class = "animate__animated animate__fadeInDown mar wow">Project Details</h1>
+      <h2 class = "animate__animated animate__fadeInDown bruh wow"><center>For this project I needed to find the shortest routes that would allow me to travel to every Ivy League College and returned me back to starting position(Home/Cornell). In graph theory this type of route could be represented as a Hamiltonian Circuit. Think of a Hamiltonian Curcuit as a route that starts and ends at the same place. I then applied my knowledge of Graph Theory, various algorithms, spread sheets, google maps, data analysis, and more to determine the shortest Ivy League Hamiltonian Circuit.</center></h2>
+      <h1 class = "animate__animated animate__fadeInDown mar wow">Application Of Algorithms</h1>
+      <br><h2 class = "animate__animated animate__fadeInDown bruh wow"><center>To find the shortest route/Hamiltonian Circuit between all of the Ivy Leagues I implemented 2 different algorithms. The first algorithm is called the Nearest Neighbor Algorithm, and is performed by starting off with your smallest route/ edge between 2 colleges/vertexes. From their I picked shortest route/edge to a different college/vertex. I basically thought about the shortest routes that would brach off cornell(as its my home). And then continued to branch off other college’s shortest connecting routes, until I had a Hamiltonian Circuit. I then summed up the distance of these routes and found that the over trip was around 1028.6 miles. I then performed a Sorted Edges Algorithm where I wrote down every single route that connect every Ivy League college. From their I sorted them by hand and started graphing them from least to greatest. I had to keep in mind that I couldn’t make a Hamilton Circuit that left out any points, or allowed 1 vertex to have 3 edges. I was then able to find a different Hamilton Circuit that summed up to 994.6 miles. Although the Nearest Neighbor Algorithm is fast it isn’t always as reliable as the Sorted Edges Algorithm. But I did find that the Sorted Edges Algorithm was tedious and someone could easily make a mistake while performing it. 
+      </center></h2></br?>
+      <h4 class = "animate__animated animate__jello wow"><a href=""><img src = "work.png" alt="Map" width = "300" height = "350"></img></a></h4>
+      <h3 class = "animate__animated animate__fadeInDown wow">Work for Sorted Algorithm</h3>
+      <br><h1 class = "animate__animated animate__fadeInDown mar wow">Conclusion</h1></br>
+      <br><h2 class = "animate__animated animate__fadeInDown bruh wow"><center>With simple permutations((8-1)!) I found their to be a total of 5040 Hamilton Circuits. According to my calculations, the shortest Hamilton circuit is “Cornell, to Penn, to Princeton, to Columbia, to Yale, to Brown, to Harvard, to Dartmouth, and then finally back to Cornell .” The total distance of this circuit is 994.6 miles. I derived this circuit with the Sorted Edges Algorithm. I stand by the fact that this is the best route to take as the Sorted Edges Algorithm always gives you an accurate answer unless it is done improperly. Furthermore, I compared it with other circuits. For example, I compared my circuit derived from the Sorted Edges Algorithm, with the circuit derived from the Nearest Neighbor Algorithm. I found that my circuit derived from the Sorted Edges Algorithm was 34 miles shorter than the other circuit I had derived. In conclusion, with the help of the Sorted Edges Algorithm I was able to derive that the shortest route/Hamiltonian circuit is “Cornell, to Penn, to Princeton, to Columbia, to Yale, to Brown, to Harvard, to Dartmouth, and then finally back to Cornell .” 
+      </center></h2></br?>
+
+      <script src="nft_javascript.js"></script>
+   </body>
+</html>
